@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">mytaxi demo</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- MainActivity -->
+    <string name="text_hint_driver">Search driver here</string>
+
+    <!-- MenuItems -->
+    <string name="text_item_title_logout">Logout</string>
+
+    <!-- DriverProfileActivity -->
+    <string name="title_activity_driver_profile">Driver Profile</string>
+
+    <!-- AuthenticationActivity -->
+    <string name="title_activity_authentication">Login</string>
+    <string name="text_username">Username</string>
+    <string name="text_password">Password</string>
+    <string name="button_login">Login</string>
+
+    <!--Changed "Login Failed" error message to more user friendly error message i.e. "Enter valid Username/Password"-->
+    <string name="message_login_fail">Enter valid Username/Password</string>
+
+    <!--Created new strings for new scenarios
+    1. Username field is empty
+    2. Password field is empty
+    3. both Username and Password fields are empty-->
+    <string name="username_empty">Username is required</string>
+    <string name="password_empty">Password is required</string>
+    <string name="username_password_empty">Both Username and Password are required</string>
+
+</resources>
